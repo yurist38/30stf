@@ -15,9 +15,8 @@
     "tests"
   ],
   "dependencies": {
-    "polymer": "Polymer/polymer#^1.4.0",
-    "iron-elements": "PolymerElements/iron-elements#^1.0.10",
-    "paper-elements": "PolymerElements/paper-elements#^1.0.7",
-    "bootstrap": "^3.3.6"
+    "bootstrap": "^3.3.6",
+    "jquery": "^2.2.3",
+    "eonasdan-bootstrap-datetimepicker": "^4.17.37"
   }
 }

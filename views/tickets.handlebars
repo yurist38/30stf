@@ -1,0 +1,19 @@
+<h3>Booked Tickets List</h3>
+<table class="table">
+    <tr>
+        <th class="text-center">ID</th>
+        <th class="text-center">Name</th>
+        <th class="text-center">Date</th>
+    </tr>
+    {{#each tickets}}
+        <tr>
+            <td class="text-center">{{ id }}</td>
+            <td class="text-center">{{ name }}</td>
+            <td class="text-center">{{ date }}</td>
+        </tr>
+    {{else}}
+        <tr><td colspan="3" class="text-center">
+            You have no reserved tickets...
+        </td></tr>
+    {{/each}}
+</table>
